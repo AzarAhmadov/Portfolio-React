@@ -375,9 +375,9 @@ header {
   top: 0;
   z-index: 4000;
   transition: 300ms linear;
+  background: #fff;
 
   &.active {
-    background: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
   }
 
