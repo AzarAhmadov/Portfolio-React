@@ -1172,6 +1172,9 @@ header {
             h1 {
               font-size: 37px;
             }
+            .work-text{
+              font-size: 19px;
+            }
           }
         }
 
@@ -1386,6 +1389,7 @@ header {
     .container {
       .banner-row {
         .banner-left-col {
+          margin-top: 20px;
           padding-left: 0px;
 
           .banner-left-item {
@@ -1405,7 +1409,7 @@ header {
 
             .sosial-icons {
               position: absolute;
-              top: 110px;
+              top: 88px;
               padding: 0;
 
 
@@ -1417,15 +1421,15 @@ header {
         }
 
         .banner-right-col {
-          padding-left: 50px;
+          padding-left: 30px;
 
           .banner-right-item {
-            width: 260px;
-            height: 260px;
+            width: 230px;
+            height: 230px;
 
             .banner-img {
-              height: 263px !important;
-              width: 252px;
+              height: 233px !important;
+              width: 222px;
             }
           }
         }

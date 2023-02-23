@@ -890,6 +890,9 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #banner .container .banner-row .banner-left-col .banner-left-item h1 {
     font-size: 37px;
   }
+  #banner .container .banner-row .banner-left-col .banner-left-item .work-text {
+    font-size: 19px;
+  }
   #banner .container .banner-row .banner-right-col .banner-right-item {
     width: 429px;
     height: 429px;
@@ -1007,6 +1010,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     padding-bottom: 3px;
   }
   #banner .container .banner-row .banner-left-col {
+    margin-top: 20px;
     padding-left: 0px;
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .right-text .title {
@@ -1020,22 +1024,22 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .sosial-icons {
     position: absolute;
-    top: 110px;
+    top: 88px;
     padding: 0;
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .sosial-icons i {
     font-size: 32px;
   }
   #banner .container .banner-row .banner-right-col {
-    padding-left: 50px;
+    padding-left: 30px;
   }
   #banner .container .banner-row .banner-right-col .banner-right-item {
-    width: 260px;
-    height: 260px;
+    width: 230px;
+    height: 230px;
   }
   #banner .container .banner-row .banner-right-col .banner-right-item .banner-img {
-    height: 263px !important;
-    width: 252px;
+    height: 233px !important;
+    width: 222px;
   }
   #about {
     margin-bottom: 2px;
