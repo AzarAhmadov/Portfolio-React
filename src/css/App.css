@@ -961,8 +961,14 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #about .container .about-row .about-col-right .about-right-item ul li {
     width: 130px;
   }
-  #about .container .about-row .about-col-right .about-right-item p {
-    width: 550px;
+  #about .container .about-row .about-col-right .about-right-item .about-text {
+    text-align: start;
+    width: 473px;
+    font-size: 19px;
+  }
+  #about .container .about-row .about-col-right .about-right-item .about-text p {
+    width: 100%;
+    text-align: start !important;
   }
   #services .container .services-row .col-lg-4 {
     margin-bottom: 30px;
@@ -1067,21 +1073,22 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     padding: 0 !important;
   }
   #about .container .about-row .about-col-right .about-right-item .about-text {
-    text-align: center;
     font-size: 17px;
     line-height: 30px;
+    width: 330px;
   }
   #about .container .about-row .about-col-right .about-right-item p {
-    width: 350px;
+    margin: 0 auto;
+    text-align: start !important;
   }
   #about .container .about-row .about-col-right .about-right-item ul {
-    display: flex;
     padding-top: 20px;
-    justify-content: center;
-    width: 100%;
+    width: 330px;
+    gap: 0px;
+    justify-content: space-between;
   }
   #about .container .about-row .about-col-right .about-right-item ul li {
-    width: 85px;
+    width: auto;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span .num {
     position: relative;
@@ -1091,14 +1098,13 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     text-align: center;
     margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span small::after {
-    padding-left: 2px;
-    content: "+";
+    padding-left: 0px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span strong {
-    font-size: 19px;
+    font-size: 18px;
   }
   #about .container .about-row .about-col-left .about-left-item img {
     height: 240px;

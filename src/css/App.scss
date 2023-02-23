@@ -1288,8 +1288,15 @@ header {
               }
             }
 
-            p {
-              width: 550px;
+            .about-text {
+              text-align: start;
+              width: 473px;
+              font-size: 19px;
+
+              p {
+                width: 100%;
+                text-align: start !important;
+              }
             }
           }
 
@@ -1470,23 +1477,24 @@ header {
             padding: 0 !important;
 
             .about-text {
-              text-align: center;
               font-size: 17px;
               line-height: 30px;
+              width: 330px;
             }
 
             p {
-              width: 350px;
+              margin: 0 auto;
+              text-align: start !important;
             }
 
             ul {
-              display: flex;
               padding-top: 20px;
-              justify-content: center;
-              width: 100%;
+              width: 330px;
+              gap: 0px;
+              justify-content: space-between;
 
               li {
-                width: 85px;
+                width: auto;
 
                 span {
                   .num {
@@ -1498,16 +1506,15 @@ header {
                     text-align: center;
                     margin: 0 auto;
                     text-align: center;
-                    font-size: 30px;
+                    font-size: 27px;
 
                     &::after {
-                      padding-left: 2px;
-                      content: "+";
+                      padding-left: 0px;
                     }
                   }
 
                   strong {
-                    font-size: 19px;
+                    font-size: 18px;
                   }
                 }
               }
