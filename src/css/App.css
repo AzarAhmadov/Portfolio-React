@@ -393,20 +393,27 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 }
 #about .about-row .about-col-right .about-right-item ul {
   display: flex;
-  text-align: center;
   padding: 35px 0;
+  gap: 0 60px;
 }
 #about .about-row .about-col-right .about-right-item ul li {
-  color: #000;
+  text-align: center;
   font-weight: 500;
-  margin-right: 50px;
-  font-size: 35px;
 }
 #about .about-row .about-col-right .about-right-item ul li span {
-  font-size: 24px;
+  font-family: "Poppins", sans-serif;
 }
-#about .about-row .about-col-right .about-right-item ul li:last-child {
-  margin-right: 0;
+#about .about-row .about-col-right .about-right-item ul li span small {
+  font-size: 36px;
+}
+#about .about-row .about-col-right .about-right-item ul li span small::after {
+  padding-left: 2px;
+  content: "+";
+}
+#about .about-row .about-col-right .about-right-item ul li span strong {
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 #skills {
@@ -1065,18 +1072,26 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     width: 350px;
   }
   #about .container .about-row .about-col-right .about-right-item ul {
-    justify-content: space-evenly;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
     width: 100%;
-    align-items: center;
-    padding: 20px 0;
+    gap: 0 30px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li {
-    font-size: 29px;
-    margin-right: 0;
+    width: auto;
     text-align: center;
   }
-  #about .container .about-row .about-col-right .about-right-item ul li span {
-    font-size: 19px;
+  #about .container .about-row .about-col-right .about-right-item ul li span small {
+    text-align: center;
+    font-size: 32px;
+  }
+  #about .container .about-row .about-col-right .about-right-item ul li span small::after {
+    padding-left: 2px;
+    content: "+";
+  }
+  #about .container .about-row .about-col-right .about-right-item ul li span strong {
+    font-size: 20px;
   }
   #about .container .about-row .about-col-left .about-left-item img {
     height: 240px;

@@ -1,12 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { isVisible } from "@testing-library/user-event/dist/utils";
 import MyResume from '../cv/AzarAhmadov(cv).pdf'
+import CountUp from "react-countup";
+import ReactVisibilitySensor from "react-visibility-sensor";
 import Aos from 'aos';
 
-const About = () => {
+const About = ({ className, ...rest }) => {
 
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, [])
+
+    const [viewPortEntered, setViewPortEntered] = useState(false);
 
     return (
         <section id='about'>
@@ -27,9 +32,78 @@ const About = () => {
                                 I am living in Baku. I like Information technologies and search Informasion technologies. I am open to new things and I like to work on myself. I am very hardworking.
                             </p>
                             <ul>
-                                <li>2 + <br />  <span> Experience </span></li>
-                                <li>46 + <br /> <span> Project </span></li>
-                                <li>7 + <br />  <span> Orders </span></li>
+                                <li>
+                                    <span className='d-flex flex-column' data-number="2">
+                                        <CountUp {...rest} start={viewPortEntered ? null : 0} end={2}>
+                                            {({ countUpRef }) => {
+                                                return (
+                                                    <ReactVisibilitySensor
+                                                        active={!viewPortEntered}
+                                                        onChange={(isVisible) => {
+                                                            if (isVisible) {
+                                                                setViewPortEntered(true);
+                                                            }
+                                                        }}
+                                                        delayedCall
+                                                    >
+                                                        <small className="number" ref={countUpRef} />
+                                                    </ReactVisibilitySensor>
+                                                );
+                                            }}
+                                        </CountUp>
+                                        <strong>
+                                            Experience
+                                        </strong>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span className='d-flex flex-column' data-number="55">
+                                        <CountUp {...rest} start={viewPortEntered ? null : 0} end={55}>
+                                            {({ countUpRef }) => {
+                                                return (
+                                                    <ReactVisibilitySensor
+                                                        active={!viewPortEntered}
+                                                        onChange={(isVisible) => {
+                                                            if (isVisible) {
+                                                                setViewPortEntered(true);
+                                                            }
+                                                        }}
+                                                        delayedCall
+                                                    >
+                                                        <small className="number" ref={countUpRef} />
+                                                    </ReactVisibilitySensor>
+                                                );
+                                            }}
+                                        </CountUp>
+                                        <strong>
+                                            Project
+                                        </strong>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span className='d-flex flex-column' data-number="7">
+                                        <CountUp {...rest} start={viewPortEntered ? null : 0} end={7}>
+                                            {({ countUpRef }) => {
+                                                return (
+                                                    <ReactVisibilitySensor
+                                                        active={!viewPortEntered}
+                                                        onChange={(isVisible) => {
+                                                            if (isVisible) {
+                                                                setViewPortEntered(true);
+                                                            }
+                                                        }}
+                                                        delayedCall
+                                                    >
+                                                        <small className="number" ref={countUpRef} />
+                                                    </ReactVisibilitySensor>
+                                                );
+                                            }}
+                                        </CountUp>
+                                        <strong>
+                                            Orders
+                                        </strong>
+                                    </span>
+                                </li>
                             </ul>
                             <a className='global-button' download href={MyResume}> My Cv <i className="fa-solid fa-download"></i> </a>
                         </div>
