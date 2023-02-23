@@ -1092,7 +1092,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   #about .container .about-row .about-col-right .about-right-item ul li span .num {
     position: relative;
-    right: -10px;
+    right: -8px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span small {
     text-align: center;
