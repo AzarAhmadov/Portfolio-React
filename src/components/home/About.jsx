@@ -46,7 +46,7 @@ const About = ({ className, ...rest }) => {
                                                         }}
                                                         delayedCall
                                                     >
-                                                        <small className="number" ref={countUpRef} />
+                                                        <small className="number num" ref={countUpRef} />
                                                     </ReactVisibilitySensor>
                                                 );
                                             }}

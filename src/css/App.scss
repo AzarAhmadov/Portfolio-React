@@ -1282,6 +1282,12 @@ header {
             align-items: center;
             text-align: center;
 
+            ul {
+              li {
+                width: 130px;
+              }
+            }
+
             p {
               width: 550px;
             }
@@ -1478,16 +1484,21 @@ header {
               padding-top: 20px;
               justify-content: center;
               width: 100%;
-              gap: 0 30px;
 
               li {
-                width: auto;
-                text-align: center;
+                width: 85px;
 
                 span {
+                  .num {
+                    position: relative;
+                    right: -10px;
+                  }
+
                   small {
                     text-align: center;
-                    font-size: 32px;
+                    margin: 0 auto;
+                    text-align: center;
+                    font-size: 30px;
 
                     &::after {
                       padding-left: 2px;
@@ -1496,7 +1507,7 @@ header {
                   }
 
                   strong {
-                    font-size: 20px;
+                    font-size: 19px;
                   }
                 }
               }

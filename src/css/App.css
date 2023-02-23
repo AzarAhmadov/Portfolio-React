@@ -958,6 +958,9 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     align-items: center;
     text-align: center;
   }
+  #about .container .about-row .about-col-right .about-right-item ul li {
+    width: 130px;
+  }
   #about .container .about-row .about-col-right .about-right-item p {
     width: 550px;
   }
@@ -1076,22 +1079,26 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     padding-top: 20px;
     justify-content: center;
     width: 100%;
-    gap: 0 30px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li {
-    width: auto;
-    text-align: center;
+    width: 85px;
+  }
+  #about .container .about-row .about-col-right .about-right-item ul li span .num {
+    position: relative;
+    right: -10px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span small {
     text-align: center;
-    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span small::after {
     padding-left: 2px;
     content: "+";
   }
   #about .container .about-row .about-col-right .about-right-item ul li span strong {
-    font-size: 20px;
+    font-size: 19px;
   }
   #about .container .about-row .about-col-left .about-left-item img {
     height: 240px;
