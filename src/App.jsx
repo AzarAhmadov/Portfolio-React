@@ -7,7 +7,6 @@ import MobilMenu from './components/home/MobilMenu';
 import UpBtn from './components/home/UpBtn';
 import GlobalContextProvider from './components/context/Context';
 import { useState, useEffect } from 'react';
-import { useRef } from 'react';
 
 function App() {
   const [loading, setLoading] = useState(false)
