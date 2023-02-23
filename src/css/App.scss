@@ -373,10 +373,14 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  transition: 400ms linear;
   z-index: 4000;
-  background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: 300ms linear;
+
+  &.active {
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+  }
+
 
   .h-row {
     display: flex;
@@ -436,7 +440,7 @@ header {
 }
 
 #banner {
-  margin-top: 180px;
+  margin-top: 170px;
   display: flex;
   align-items: center;
 

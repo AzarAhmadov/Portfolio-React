@@ -245,10 +245,12 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  transition: 400ms linear;
   z-index: 4000;
+  transition: 300ms linear;
+}
+header.active {
   background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 header .h-row {
   display: flex;
@@ -291,7 +293,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 }
 
 #banner {
-  margin-top: 180px;
+  margin-top: 170px;
   display: flex;
   align-items: center;
 }

@@ -18,10 +18,18 @@ const Header = () => {
             header.current.style.top = "-100px";
         }
         prevScrollpos = currentScrollPos;
+
+        const headerTop = document.querySelector(".header");
+        if (window.scrollY > 10) {
+            headerTop.classList.add("active");
+        } else {
+            headerTop.classList.remove("active");
+        }
     }
 
+
     return (
-        <header ref={header}>
+        <header className='header' ref={header}>
             <div style={{ width: '100%' }}>
                 <div className='container'>
                     <div className="row h-row">
