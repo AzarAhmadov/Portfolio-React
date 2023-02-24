@@ -161,7 +161,7 @@ export const portfolio = [
         category: "react"
     },
     {
-        img: "../images/port29.png",
+        img: "../images/port30.png",
         name: "Shopping Cart",
         github: "https://github.com/AzarAhmadov/React-ShoppingCart",
         demo: "https://react-shopping-cart-ebon.vercel.app/",
