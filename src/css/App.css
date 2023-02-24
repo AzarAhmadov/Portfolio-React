@@ -1058,6 +1058,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     height: 233px !important;
     width: 222px;
   }
+  .global-button {
+    padding: 10px 28px;
+    font-size: 21px !important;
+  }
   #about {
     margin-bottom: 2px;
     padding-top: 40px;
@@ -1083,23 +1087,26 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     text-align: start !important;
   }
   #about .container .about-row .about-col-right .about-right-item ul {
-    padding-top: 20px;
+    padding-right: 35px;
     width: 330px;
-    gap: 0px;
     justify-content: space-between;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    padding-top: 20px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li {
-    width: auto;
+    width: -moz-max-content;
+    width: max-content;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span .num {
     position: relative;
-    right: -8px;
+    right: -7px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span small {
     text-align: center;
     margin: 0 auto;
     text-align: center;
-    font-size: 27px;
+    font-size: 28px;
   }
   #about .container .about-row .about-col-right .about-right-item ul li span small::after {
     padding-left: 0px;

@@ -1461,6 +1461,11 @@ header {
     }
   }
 
+  .global-button {
+    padding: 10px 28px;
+    font-size: 21px !important;
+  }
+
   #about {
     margin-bottom: 2px;
     padding-top: 40px;
@@ -1489,25 +1494,26 @@ header {
             }
 
             ul {
-              padding-top: 20px;
+              padding-right: 35px;
               width: 330px;
-              gap: 0px;
               justify-content: space-between;
+              column-gap: 0px;
+              padding-top: 20px;
 
               li {
-                width: auto;
+                width: max-content;
 
                 span {
                   .num {
                     position: relative;
-                    right: -8px;
+                    right: -7px;
                   }
 
                   small {
                     text-align: center;
                     margin: 0 auto;
                     text-align: center;
-                    font-size: 27px;
+                    font-size: 28px;
 
                     &::after {
                       padding-left: 0px;
