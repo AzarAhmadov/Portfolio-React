@@ -29,7 +29,9 @@ const About = ({ className, ...rest }) => {
                     <div className="col-lg-6 about-col-right">
                         <div data-aos="fade-left" className="about-right-item">
                             <p className='about-text'>
-                                I am living in Baku. I like Information technologies and search Informasion technologies. I am open to new things and I like to work on myself. I am very hardworking.
+                                <span>
+                                    I am living in Baku. I like Information technologies and search Informasion technologies. I am open to new things and I like to work on myself. I am very hardworking.
+                                </span>
                             </p>
                             <ul>
                                 <li>
