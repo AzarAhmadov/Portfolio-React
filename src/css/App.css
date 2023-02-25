@@ -906,12 +906,12 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   opacity: 1;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px), only screen and (max-device-width: 1400px) {
   .container {
     padding: 0;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
   #banner .container .banner-row .banner-left-col .banner-left-item h1 {
     font-size: 37px;
   }
@@ -938,7 +938,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     margin-left: 2px;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px), only screen and (max-device-width: 992px) {
   header {
     display: none;
   }
@@ -1033,7 +1033,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
   #experience .container .experience-row .exprerience-col .exprerience-item {
     width: 100%;
   }
@@ -1045,7 +1045,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     height: 200px;
   }
 }
-@media only screen and (max-width: 578px) {
+@media only screen and (max-width: 578px), only screen and (max-device-width: 578px) {
   .successfully {
     top: 20px !important;
     font-size: 21px;

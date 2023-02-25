@@ -62,7 +62,6 @@ $color-4:#505050;
 
 html,
 body {
-  font-size: calc((1vh+1vw)/2);
   width: 100%;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
@@ -1187,13 +1186,15 @@ header {
 
 // Responsive
 
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1400px),
+only screen and (max-device-width: 1400px) {
   .container {
     padding: 0;
   }
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1200px),
+only screen and (max-device-width: 1200px) {
   #banner {
     .container {
       .banner-row {
@@ -1263,7 +1264,8 @@ header {
   }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:992px),
+only screen and (max-device-width: 992px) {
   header {
     display: none;
   }
@@ -1416,7 +1418,8 @@ header {
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px),
+only screen and (max-device-width: 768px) {
   #experience {
     .container {
       .experience-row {
@@ -1449,7 +1452,8 @@ header {
   }
 }
 
-@media only screen and (max-width:578px) {
+@media only screen and (max-width:578px),
+only screen and (max-device-width: 578px) {
   .successfully {
     top: 20px !important;
     font-size: 21px;
