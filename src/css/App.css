@@ -60,9 +60,9 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-size: 100%;
-  -webkit-text-size-adjust: auto;
-     -moz-text-size-adjust: auto;
-          text-size-adjust: auto;
+  -webkit-text-size-adjust: 10px;
+     -moz-text-size-adjust: 10px;
+          text-size-adjust: 10px;
 }
 
 .dark {
