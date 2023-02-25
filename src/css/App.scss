@@ -1462,7 +1462,6 @@ header {
     font-size: 21px;
     padding: 10px;
     width: max-content;
-
   }
 
   #banner {
@@ -1488,6 +1487,10 @@ header {
 
               .work-text {
                 font-size: 0.98rem;
+
+                br {
+                  display: none;
+                }
               }
             }
 
@@ -1801,3 +1804,5 @@ header {
   }
 
 }
+
+@media only screen and (max-width:320px) {}
