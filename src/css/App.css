@@ -59,6 +59,9 @@ body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
 }
 
 .dark {

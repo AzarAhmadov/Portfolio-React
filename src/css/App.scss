@@ -66,6 +66,7 @@ body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  text-size-adjust: none;
 }
 
 .dark {
@@ -1250,8 +1251,9 @@ header {
             }
           }
         }
-        .sosial-icon{
-          a{
+
+        .sosial-icon {
+          a {
             margin-left: 2px;
           }
         }
@@ -1378,15 +1380,16 @@ header {
               li {
                 margin-right: 0;
                 margin-bottom: 16px;
-                &:last-child{
+
+                &:last-child {
                   margin-bottom: 0;
                 }
               }
             }
           }
 
-          .sosial-icon{
-            a{
+          .sosial-icon {
+            a {
               margin-right: 7px;
             }
           }
