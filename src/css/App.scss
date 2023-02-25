@@ -1084,10 +1084,10 @@ header {
   .mobil-list {
     position: absolute;
     left: 0px;
-    bottom: 64px;
+    bottom: 62px;
     width: 100%;
     background-color: $color-3;
-    padding: 0 10px;
+    padding: 0 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.176);
     transition: 500ms all;
     max-height: 0;
@@ -1138,6 +1138,8 @@ header {
       align-items: center;
 
       .dark-mode {
+        display: flex;
+        align-items: center;
         margin-right: 15px;
       }
 

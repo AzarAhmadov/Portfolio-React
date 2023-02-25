@@ -819,10 +819,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 .mobil-menu .mobil-list {
   position: absolute;
   left: 0px;
-  bottom: 64px;
+  bottom: 62px;
   width: 100%;
   background-color: #fff;
-  padding: 0 10px;
+  padding: 0 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.176);
   transition: 500ms all;
   max-height: 0;
@@ -865,6 +865,8 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   align-items: center;
 }
 .mobil-menu .mobil-header .mobil-right .dark-mode {
+  display: flex;
+  align-items: center;
   margin-right: 15px;
 }
 .mobil-menu .mobil-header .mobil-right i {

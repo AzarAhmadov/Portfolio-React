@@ -13,9 +13,11 @@ const MobilMenu = () => {
                     {
                         Nav.map((el, idx) => {
                             return (
-                                <li className="active" onClick={() => setActive(!active)} key={idx}>
-                                    {el.icon}
-                                    <a href={el.path}>{el.text}</a>
+                                <li key={idx}>
+                                    <a className='d-flex align-items-center flex-column' onClick={() => setActive(!active)} href={el.path}>
+                                        {el.icon}
+                                        {el.text}
+                                    </a>
                                 </li>
                             )
                         })
@@ -29,7 +31,7 @@ const MobilMenu = () => {
                     <i style={{ fontSize: "32px" }} onClick={() => setActive(!active)} className={active ? "bx bx-x" : 'bx bx-grid-alt'}></i>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
