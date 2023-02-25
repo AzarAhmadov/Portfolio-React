@@ -343,7 +343,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 #banner .banner-row .banner-left-col .banner-left-item .right-text .work-text {
   color: #505050;
   margin-bottom: 30px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 #banner .banner-row .banner-right-col .banner-right-item {
   background: #6c55e0;
@@ -395,8 +395,6 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 #about .about-row .about-col-right .about-right-item .about-text {
   color: #505050;
   line-height: 35px;
-}
-#about .about-row .about-col-right .about-right-item .about-text span {
   font-size: 1.3rem;
 }
 #about .about-row .about-col-right .about-right-item ul {
