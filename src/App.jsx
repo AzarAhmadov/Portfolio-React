@@ -18,7 +18,7 @@ function App() {
   }, [])
 
   return (
-    <div className='PortfolioContent'>
+    <>
       {
         loading ?
           <div className='animate'>
@@ -37,7 +37,7 @@ function App() {
           </GlobalContextProvider>
       }
       <UpBtn />
-    </div>
+    </>
   );
 }
 
