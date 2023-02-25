@@ -32,6 +32,37 @@ export const Nav = [
 
 ]
 
+export const FooterNav = [
+    {
+        text: "Home",
+        path: "#",
+    },
+    {
+        text: "About",
+        path: "#about",
+    },
+    {
+        text: "Skills",
+        path: "#skills",
+    },
+    {
+        text: "Experience",
+        path: "#experience",
+    },
+    {
+        text: "Services",
+        path: "#services",
+    },
+    {
+        text: "Portfolio",
+        path: "#portfolio",
+    },
+    {
+        text: "Contact",
+        path: "#contact",
+    }
+]
+
 
 export const portfolio = [
     {

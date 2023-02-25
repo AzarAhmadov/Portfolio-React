@@ -926,6 +926,12 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #about .container .about-row .about-col-left .about-left-item::after {
     width: 480px;
   }
+  .footer .footer-row .footer-item .footer-list ul li {
+    margin-right: 10px;
+  }
+  .footer .footer-row .footer-item .sosial-icon a {
+    margin-left: 2px;
+  }
 }
 @media only screen and (max-width: 992px) {
   header {
@@ -1007,7 +1013,13 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   .footer .container .footer-row .footer-item .footer-list ul li {
     margin-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
+  }
+  .footer .container .footer-row .footer-item .footer-list ul li:last-child {
+    margin-bottom: 0;
+  }
+  .footer .container .footer-row .footer-item .sosial-icon a {
+    margin-right: 7px;
   }
   #contact .container .contact-row .contact-col-left {
     justify-content: flex-start;

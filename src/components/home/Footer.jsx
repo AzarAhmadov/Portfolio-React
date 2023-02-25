@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from '../data/Data';
+import { FooterNav } from '../data/Data';
 
 const Footer = () => {
     return (
@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="footer-list">
                             <ul className="list-footer">
                                 {
-                                    Nav.map((item, index) => {
+                                    FooterNav.map((item, index) => {
                                         return (
                                             <li key={index} className='nav-item'> <a href={item.path}> {item.text} </a> </li>
                                         )

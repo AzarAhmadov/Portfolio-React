@@ -1237,6 +1237,25 @@ header {
       }
     }
   }
+
+  .footer {
+    .footer-row {
+      .footer-item {
+        .footer-list {
+          ul {
+            li {
+              margin-right: 10px;
+            }
+          }
+        }
+        .sosial-icon{
+          a{
+            margin-left: 2px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width:992px) {
@@ -1356,8 +1375,17 @@ header {
 
               li {
                 margin-right: 0;
-                margin-bottom: 15px;
+                margin-bottom: 16px;
+                &:last-child{
+                  margin-bottom: 0;
+                }
               }
+            }
+          }
+
+          .sosial-icon{
+            a{
+              margin-right: 7px;
             }
           }
         }
