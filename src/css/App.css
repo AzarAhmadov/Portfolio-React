@@ -1077,6 +1077,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work-text {
     font-size: 0.98rem;
+    width: 330px;
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work-text br {
     display: none;
