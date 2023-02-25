@@ -32,6 +32,7 @@ export const Nav = [
 
 ]
 
+
 export const portfolio = [
     {
         img: "../images/port1.png",
