@@ -28,9 +28,9 @@ const About = ({ className, ...rest }) => {
                     </div>
                     <div className="col-lg-6 about-col-right">
                         <div data-aos="fade-left" className="about-right-item">
-                            <div className='about-text'>
+                            <span className='about-text'>
                                 I am living in Baku. I like Information technologies and search Informasion technologies. I am open to new things and I like to work on myself. I am very hardworking.
-                            </div>
+                            </span>
                             <ul>
                                 <li>
                                     <span className='d-flex flex-column' data-number="2">
