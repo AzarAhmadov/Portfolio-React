@@ -806,7 +806,6 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 }
 
 .mobil-menu {
-  border-top: 1px solid rgba(0, 0, 0, 0.092);
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -815,15 +814,24 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   background: #fff;
   padding: 15px 20px;
   display: none;
+  transition: 500ms all;
 }
 .mobil-menu .mobil-list {
   position: absolute;
-  left: 0;
-  bottom: 61px;
+  left: 0px;
+  bottom: 64px;
   width: 100%;
   background-color: #fff;
   padding: 0 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.176);
+  transition: 500ms all;
+  max-height: 0;
+  transition: max-height 0.35s ease-out;
+  overflow: hidden;
+}
+.mobil-menu .mobil-list.active {
+  max-height: 500px;
+  transition: max-height 0.35s ease-in;
 }
 .mobil-menu .mobil-list ul {
   display: grid;

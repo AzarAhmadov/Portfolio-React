@@ -1,6 +1,5 @@
-import { useState } from "react"
 import { Nav } from '../data/Data'
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { globalContext } from '../context/Context';
 
 const MobilMenu = () => {
@@ -9,12 +8,12 @@ const MobilMenu = () => {
 
     return (
         <div className='mobil-menu'>
-            {active ? <div className="mobil-list">
+            <div className={active ? 'mobil-list active' : 'mobil-list'}>
                 <ul>
                     {
                         Nav.map((el, idx) => {
                             return (
-                                <li onClick={() => setActive(!active)} key={idx}>
+                                <li className="active" onClick={() => setActive(!active)} key={idx}>
                                     {el.icon}
                                     <a href={el.path}>{el.text}</a>
                                 </li>
@@ -22,8 +21,7 @@ const MobilMenu = () => {
                         })
                     }
                 </ul>
-            </div> : null
-            }
+            </div>
             <div className="mobil-header">
                 <span> Azar Ahmadov </span>
                 <div className="mobil-right">

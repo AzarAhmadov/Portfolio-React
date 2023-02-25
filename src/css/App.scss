@@ -1071,7 +1071,6 @@ header {
 }
 
 .mobil-menu {
-  border-top: 1px solid rgba(0, 0, 0, 0.092);
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -1080,15 +1079,26 @@ header {
   background: $color-3;
   padding: 15px 20px;
   display: none;
+  transition: 500ms all;
 
   .mobil-list {
     position: absolute;
-    left: 0;
-    bottom: 61px;
+    left: 0px;
+    bottom: 64px;
     width: 100%;
     background-color: $color-3;
     padding: 0 10px;
-    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-top: 1px solid rgba(0, 0, 0, 0.176);
+    transition: 500ms all;
+    max-height: 0;
+    transition: max-height 0.35s ease-out;
+    overflow: hidden;
+
+    &.active {
+      max-height: 500px;
+      transition: max-height 0.35s ease-in;
+    }
+
 
     ul {
       display: grid;
