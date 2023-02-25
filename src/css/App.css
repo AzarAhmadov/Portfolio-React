@@ -590,7 +590,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   color: #505050;
 }
 #services .services-row .col-lg-4 .card-item i {
-  font-size: 40px;
+  font-size: 45px;
   color: #505050;
   margin-bottom: 25px;
 }
@@ -607,7 +607,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
 }
 #portfolio .potfolio-row .portfolio-grid .portfolio-item {
   background: rgba(0, 0, 0, 0.029);
