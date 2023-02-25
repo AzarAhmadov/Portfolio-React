@@ -843,6 +843,7 @@ header {
           width: 400px;
           height: 250px;
           background: red($color: #000000);
+          border-radius: 10px;
 
           img {
             object-position: top;
@@ -1342,12 +1343,15 @@ header {
       .footer-row {
         .footer-item {
           flex-direction: column;
+          align-items: flex-start;
+          text-align: start;
 
           .footer-list {
             margin: 25px 0;
 
             ul {
               flex-direction: column;
+              align-items: flex-start;
               display: flex;
 
               li {
@@ -1707,7 +1711,7 @@ header {
 
         .portfolio-item {
           padding: 15px;
-          width: 100%;
+          width: 370px;
           height: fit-content;
 
           .portfolio-name {
@@ -1716,7 +1720,7 @@ header {
 
           .portfolio-img {
             width: 100%;
-            max-height: 190px;
+            max-height: 200px;
           }
 
         }
@@ -1726,6 +1730,20 @@ header {
 
   .footer {
     margin-top: 50px;
+
+    .container {
+      padding: 20px;
+
+      .footer-item {
+        .footer-title {
+          font-size: 27px;
+        }
+
+        .simple-footer {
+          font-size: 19px;
+        }
+      }
+    }
   }
 
   .global-button {
