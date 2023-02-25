@@ -60,9 +60,9 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-size: 100%;
-  -webkit-text-size-adjust: 10px;
-     -moz-text-size-adjust: 10px;
-          text-size-adjust: 10px;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+          text-size-adjust: auto;
 }
 
 .dark {
@@ -342,8 +342,9 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   display: block;
 }
 #banner .banner-row .banner-left-col .banner-left-item .right-text .work-text {
+  display: block;
   color: #505050;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   font-size: 1.2rem;
 }
 #banner .banner-row .banner-right-col .banner-right-item {

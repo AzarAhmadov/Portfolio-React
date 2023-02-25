@@ -20,9 +20,9 @@ const Main = () => {
                             <div data-aos='fade-left' className="right-text">
                                 <h1 className='title'> Hi, I'm Azar Ahmadov </h1>
                                 <span className='work'> Front-end developer </span>
-                                <p className='work-text'>
+                                <small className='work-text'>
                                     I have a lot of knowledge and experience <br /> in this field
-                                </p>
+                                </small>
                                 <a className='global-button' href="https://api.whatsapp.com/send?phone=9940558210637"> Contact me  <i className="fa-regular fa-id-badge"></i></a>
                             </div>
                         </div>

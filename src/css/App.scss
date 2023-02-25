@@ -67,7 +67,7 @@ body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   font-size: 100%;
-  text-size-adjust: 10px;
+  text-size-adjust: auto;
 }
 
 .dark {
@@ -496,8 +496,9 @@ header {
           }
 
           .work-text {
+            display: block;
             color: $color-4;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             font-size: 1.2rem;
           }
         }
