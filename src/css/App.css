@@ -53,6 +53,12 @@ h5 {
   background: #fff;
 }
 
+html {
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
 html,
 body {
   width: 100%;
