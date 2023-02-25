@@ -1208,6 +1208,8 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     font-size: 18px;
   }
   #experience .container .row .experience-col .year {
+    width: -moz-max-content;
+    width: max-content;
     font-size: 20px;
   }
   #experience .container .row .experience-col .universty-name {
@@ -1284,5 +1286,8 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   .global-button {
     font-size: 20px;
+  }
+  .container {
+    background: red;
   }
 }/*# sourceMappingURL=App.css.map */

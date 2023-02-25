@@ -1677,6 +1677,7 @@ header {
           }
 
           .year {
+            width: max-content;
             font-size: 20px;
           }
 
@@ -1797,6 +1798,10 @@ header {
 
   .global-button {
     font-size: 20px;
+  }
+
+  .container{
+    background: red;
   }
 
 }
