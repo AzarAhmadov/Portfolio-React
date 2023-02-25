@@ -50,6 +50,7 @@ h5 {
   width: 100%;
   position: fixed;
   z-index: 10000;
+  background: #fff;
 }
 
 html,
