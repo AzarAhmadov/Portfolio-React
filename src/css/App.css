@@ -342,8 +342,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 }
 #banner .banner-row .banner-left-col .banner-left-item .right-text .work-text {
   color: #505050;
-  font-size: 1.2rem;
   margin-bottom: 30px;
+}
+#banner .banner-row .banner-left-col .banner-left-item .right-text .work-text span {
+  font-size: 1.3rem;
 }
 #banner .banner-row .banner-right-col .banner-right-item {
   background: #6c55e0;
@@ -394,8 +396,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 }
 #about .about-row .about-col-right .about-right-item .about-text {
   color: #505050;
-  font-size: 1.3rem;
   line-height: 35px;
+}
+#about .about-row .about-col-right .about-right-item .about-text span {
+  font-size: 1.3rem;
 }
 #about .about-row .about-col-right .about-right-item ul {
   display: flex;
@@ -495,37 +499,45 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 #experience .experience-row .experience-top button i {
   margin-right: 20px;
 }
-#experience .experience-row .exprerience-col {
+#experience .experience-row .experience-col {
   margin-top: 40px;
 }
-#experience .experience-row .exprerience-col .exprerience-item {
+#experience .experience-row .experience-col .experience-item {
   display: flex;
   padding: 20px 0px;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.091);
-  width: 620px;
+  width: 630px;
   margin: 0 auto;
   text-align: center;
 }
-#experience .experience-row .exprerience-col .exprerience-item a {
+#experience .experience-row .experience-col .experience-item a {
   color: #6c55e0 !important;
   font-weight: 500;
   letter-spacing: 1px;
 }
-#experience .experience-row .exprerience-col .exprerience-item:last-child {
+#experience .experience-row .experience-col .experience-item:last-child {
   border-bottom: none;
 }
-#experience .experience-row .exprerience-col .exprerience-item .name {
+#experience .experience-row .experience-col .experience-item .name {
   font-size: 28px;
   font-weight: 400;
   color: #000;
 }
-#experience .experience-row .exprerience-col .exprerience-item .universty-name {
-  color: #505050;
+#experience .experience-row .experience-col .experience-item .experience-txt span {
   font-size: 22px;
 }
-#experience .experience-row .exprerience-col .exprerience-item .year {
+#experience .experience-row .experience-col .experience-item .experience-txt span a {
+  padding: 0 7px;
+}
+#experience .experience-row .experience-col .experience-item .universty-name {
+  color: #505050;
+}
+#experience .experience-row .experience-col .experience-item .universty-name span {
+  font-size: 22px;
+}
+#experience .experience-row .experience-col .experience-item .year {
   font-weight: 500;
   color: #000;
   font-size: 22px;
@@ -906,17 +918,17 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   opacity: 1;
 }
 
-@media only screen and (max-width: 1400px), only screen and (max-device-width: 1400px) {
+@media only screen and (max-width: 1400px) {
   .container {
     padding: 0;
   }
 }
-@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #banner .container .banner-row .banner-left-col .banner-left-item h1 {
     font-size: 37px;
   }
-  #banner .container .banner-row .banner-left-col .banner-left-item .work-text {
-    font-size: 19px;
+  #banner .container .banner-row .banner-left-col .banner-left-item .work-text span {
+    font-size: 1.1rem;
   }
   #banner .container .banner-row .banner-right-col .banner-right-item {
     width: 429px;
@@ -938,7 +950,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     margin-left: 2px;
   }
 }
-@media only screen and (max-width: 992px), only screen and (max-device-width: 992px) {
+@media only screen and (max-width: 992px) {
   header {
     display: none;
   }
@@ -988,6 +1000,8 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #about .container .about-row .about-col-right .about-right-item .about-text {
     text-align: start;
     width: 473px;
+  }
+  #about .container .about-row .about-col-right .about-right-item .about-text span {
     font-size: 1.2rem;
   }
   #about .container .about-row .about-col-right .about-right-item .about-text p {
@@ -1033,19 +1047,16 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
-  #experience .container .experience-row .exprerience-col .exprerience-item {
+@media only screen and (max-width: 768px) {
+  #experience .row .experience-col .experience-item {
     width: 100%;
-  }
-  #experience .container .experience-row .exprerience-col .exprerience-item p br {
-    display: none;
   }
   #services .container .row .col-lg-4 .card-item {
     width: 280px;
     height: 200px;
   }
 }
-@media only screen and (max-width: 578px), only screen and (max-device-width: 578px) {
+@media only screen and (max-width: 578px) {
   .successfully {
     top: 20px !important;
     font-size: 21px;
@@ -1068,7 +1079,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work {
     font-size: 23px;
   }
-  #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work-text {
+  #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work-text span {
     font-size: 1rem;
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .sosial-icons {
@@ -1110,9 +1121,11 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     padding: 0 !important;
   }
   #about .container .about-row .about-col-right .about-right-item .about-text {
-    font-size: 1rem;
     line-height: 27px;
     width: 330px;
+  }
+  #about .container .about-row .about-col-right .about-right-item .about-text span {
+    font-size: 1rem;
   }
   #about .container .about-row .about-col-right .about-right-item p {
     margin: 0 auto;
@@ -1193,14 +1206,20 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #experience .container .row .experience-top button i {
     margin-right: 12px;
   }
-  #experience .container .row .exprerience-col {
+  #experience .container .row .experience-col {
     margin-top: 20px;
     padding: 0 30px;
   }
-  #experience .container .row .exprerience-col .name {
-    font-size: 22px;
+  #experience .container .row .experience-col .name {
+    font-size: 18px;
   }
-  #experience .container .row .exprerience-col .universty-name {
+  #experience .container .row .experience-col .year {
+    font-size: 20px;
+  }
+  #experience .container .row .experience-col .universty-name span {
+    font-size: 17px;
+  }
+  #experience .container .row .experience-col .experience-txt span {
     font-size: 18px;
   }
   #services {

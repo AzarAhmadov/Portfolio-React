@@ -22,31 +22,46 @@ const Exprience = () => {
                         <button className={index ? "" : 'active'} onClick={() => setIndex(0)}> <i className="fa-solid fa-building-columns"></i> Education </button>
                         <button className={index ? "active" : ''} onClick={() => setIndex(1)}> <i className="fa-solid fa-display"></i> Career </button>
                     </div>
-                    <div hidden={index != 0} className="col-12 exprerience-col">
-                        <div className="exprerience-item">
+                    <div hidden={index != 0} className="col-12 experience-col">
+                        <div className="experience-item">
                             <span className="year"> 2018 - 2022 </span>
                             <span className="name"> Western Caspian Universty </span>
                             <p className='universty-name'> <span>Computer Enginner</span> </p>
                         </div>
-                        <div className="exprerience-item">
+                        <div className="experience-item">
                             <span className="year"> 2007 - 2018 </span>
                             <p className='name'> <span>163 number of middle school </span> </p>
                         </div>
                     </div>
-                    <div hidden={index != 1} className="col-12 exprerience-col">
-                        <div className="exprerience-item">
+                    <div hidden={index != 1} className="col-12 experience-col">
+                        <div className="experience-item">
                             <span style={{ marginBottom: "10px" }} className="year"> 2023 </span>
-                            <p className='universty-name'> <span>I am an intern as a front-end developer at</span> <a target='_blank' href="https://proton.az/">Proton.az</a> The situation is ongoing </p>
+                            <p className='experience-txt'>
+                                <span>I am an intern as a front-end developer at
+                                    <a target='_blank' href="https://proton.az/">Proton.az</a>
+                                    The situation is ongoing
+                                </span>
+                            </p>
                         </div>
-                        <div className="exprerience-item">
+                        <div className="experience-item">
                             <span style={{ marginBottom: "10px" }} className="year"> 2021 - 2022 </span>
-                            <p className='universty-name'> <span>I worked as a Front end developer teacher 2 month at Baku Vocational Training Center</span> </p>
+                            <p className='experience-txt'>
+                                <span>
+                                    I worked as a Front end developer teacher 2 month at Baku Vocational Training Center
+                                </span>
+                            </p>
                         </div>
-                        <div className="exprerience-item">
-                            <p className='universty-name'> <span>I worked as a Front end developer in 'Reminant app'</span> </p>
+                        <div className="experience-item">
+                            <p className='experience-txt'>
+                                <span>I worked as a Front end developer in 'Reminant app'</span>
+                            </p>
                         </div>
-                        <div className="exprerience-item">
-                            <p className='universty-name'><span>I created Turkey and other countries web project as "free lancer". Also I have created websites ready for saler</span></p>
+                        <div className="experience-item">
+                            <p className='experience-txt'>
+                                <span>
+                                    I created Turkey and other countries web project as "free lancer". Also I have created websites ready for saler
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -496,8 +496,11 @@ header {
 
           .work-text {
             color: $color-4;
-            font-size: 1.2rem;
             margin-bottom: 30px;
+
+            span {
+              font-size: 1.3rem;
+            }
           }
         }
       }
@@ -561,8 +564,11 @@ header {
 
         .about-text {
           color: $color-4;
-          font-size: 1.3rem;
           line-height: 35px;
+
+          span {
+            font-size: 1.3rem;
+          }
         }
 
         ul {
@@ -693,16 +699,16 @@ header {
       }
     }
 
-    .exprerience-col {
+    .experience-col {
       margin-top: 40px;
 
-      .exprerience-item {
+      .experience-item {
         display: flex;
         padding: 20px 0px;
         flex-direction: column;
         align-items: center;
         border-bottom: 1px solid rgba(0, 0, 0, 0.091);
-        width: 620px;
+        width: 630px;
         margin: 0 auto;
         text-align: center;
 
@@ -722,9 +728,22 @@ header {
           color: $color-2;
         }
 
+        .experience-txt {
+          span {
+            font-size: 22px;
+
+            a {
+              padding: 0 7px;
+            }
+          }
+        }
+
         .universty-name {
           color: $color-4;
-          font-size: 22px;
+
+          span {
+            font-size: 22px;
+          }
         }
 
         .year {
@@ -1186,15 +1205,13 @@ header {
 
 // Responsive
 
-@media only screen and (max-width:1400px),
-only screen and (max-device-width: 1400px) {
+@media only screen and (max-width:1400px) {
   .container {
     padding: 0;
   }
 }
 
-@media only screen and (max-width:1200px),
-only screen and (max-device-width: 1200px) {
+@media only screen and (max-width:1200px) {
   #banner {
     .container {
       .banner-row {
@@ -1205,7 +1222,9 @@ only screen and (max-device-width: 1200px) {
             }
 
             .work-text {
-              font-size: 19px;
+              span {
+                font-size: 1.1rem;
+              }
             }
           }
         }
@@ -1264,8 +1283,7 @@ only screen and (max-device-width: 1200px) {
   }
 }
 
-@media only screen and (max-width:992px),
-only screen and (max-device-width: 992px) {
+@media only screen and (max-width:992px) {
   header {
     display: none;
   }
@@ -1334,7 +1352,10 @@ only screen and (max-device-width: 992px) {
             .about-text {
               text-align: start;
               width: 473px;
-              font-size: 1.2rem;
+
+              span {
+                font-size: 1.2rem;
+              }
 
               p {
                 width: 100%;
@@ -1418,21 +1439,12 @@ only screen and (max-device-width: 992px) {
   }
 }
 
-@media only screen and (max-width:768px),
-only screen and (max-device-width: 768px) {
+@media only screen and (max-width:768px) {
   #experience {
-    .container {
-      .experience-row {
-        .exprerience-col {
-          .exprerience-item {
-            width: 100%;
-
-            p {
-              br {
-                display: none;
-              }
-            }
-          }
+    .row {
+      .experience-col {
+        .experience-item {
+          width: 100%;
         }
       }
     }
@@ -1452,8 +1464,7 @@ only screen and (max-device-width: 768px) {
   }
 }
 
-@media only screen and (max-width:578px),
-only screen and (max-device-width: 578px) {
+@media only screen and (max-width:578px) {
   .successfully {
     top: 20px !important;
     font-size: 21px;
@@ -1484,7 +1495,9 @@ only screen and (max-device-width: 578px) {
               }
 
               .work-text {
-                font-size: 1rem;
+                span {
+                  font-size: 1rem;
+                }
               }
             }
 
@@ -1540,9 +1553,13 @@ only screen and (max-device-width: 578px) {
             padding: 0 !important;
 
             .about-text {
-              font-size: 1rem;
               line-height: 27px;
               width: 330px;
+
+              span {
+                font-size: 1rem;
+              }
+
             }
 
             p {
@@ -1665,16 +1682,28 @@ only screen and (max-device-width: 578px) {
           }
         }
 
-        .exprerience-col {
+        .experience-col {
           margin-top: 20px;
           padding: 0 30px;
 
           .name {
-            font-size: 22px;
+            font-size: 18px;
+          }
+
+          .year{
+            font-size: 20px;
           }
 
           .universty-name {
-            font-size: 18px;
+            span {
+              font-size: 17px;
+            }
+          }
+
+          .experience-txt {
+            span {
+              font-size: 18px;
+            }
           }
         }
       }
