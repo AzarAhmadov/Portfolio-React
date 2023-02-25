@@ -497,10 +497,7 @@ header {
           .work-text {
             color: $color-4;
             margin-bottom: 30px;
-
-            span {
-              font-size: 1.3rem;
-            }
+            font-size: 1.3rem;
           }
         }
       }
@@ -729,13 +726,12 @@ header {
         }
 
         .experience-txt {
-          span {
-            font-size: 22px;
+          font-size: 22px;
 
-            a {
-              padding: 0 7px;
-            }
+          a {
+            padding: 0 7px;
           }
+
         }
 
         .universty-name {
@@ -1352,10 +1348,7 @@ header {
             .about-text {
               text-align: start;
               width: 473px;
-
-              span {
-                font-size: 1.2rem;
-              }
+              font-size: 1.2rem;
 
               p {
                 width: 100%;
@@ -1495,9 +1488,7 @@ header {
               }
 
               .work-text {
-                span {
-                  font-size: 1rem;
-                }
+                font-size: 1rem;
               }
             }
 
@@ -1555,11 +1546,7 @@ header {
             .about-text {
               line-height: 27px;
               width: 330px;
-
-              span {
-                font-size: 1rem;
-              }
-
+              font-size: 1rem;
             }
 
             p {
@@ -1690,20 +1677,16 @@ header {
             font-size: 18px;
           }
 
-          .year{
+          .year {
             font-size: 20px;
           }
 
           .universty-name {
-            span {
-              font-size: 17px;
-            }
+            font-size: 17px;
           }
 
           .experience-txt {
-            span {
-              font-size: 18px;
-            }
+            font-size: 18px;
           }
         }
       }

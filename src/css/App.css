@@ -343,8 +343,6 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 #banner .banner-row .banner-left-col .banner-left-item .right-text .work-text {
   color: #505050;
   margin-bottom: 30px;
-}
-#banner .banner-row .banner-left-col .banner-left-item .right-text .work-text span {
   font-size: 1.3rem;
 }
 #banner .banner-row .banner-right-col .banner-right-item {
@@ -525,10 +523,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   font-weight: 400;
   color: #000;
 }
-#experience .experience-row .experience-col .experience-item .experience-txt span {
+#experience .experience-row .experience-col .experience-item .experience-txt {
   font-size: 22px;
 }
-#experience .experience-row .experience-col .experience-item .experience-txt span a {
+#experience .experience-row .experience-col .experience-item .experience-txt a {
   padding: 0 7px;
 }
 #experience .experience-row .experience-col .experience-item .universty-name {
@@ -1000,8 +998,6 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #about .container .about-row .about-col-right .about-right-item .about-text {
     text-align: start;
     width: 473px;
-  }
-  #about .container .about-row .about-col-right .about-right-item .about-text span {
     font-size: 1.2rem;
   }
   #about .container .about-row .about-col-right .about-right-item .about-text p {
@@ -1079,7 +1075,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work {
     font-size: 23px;
   }
-  #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work-text span {
+  #banner .container .banner-row .banner-left-col .banner-left-item .right-text .work-text {
     font-size: 1rem;
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .sosial-icons {
@@ -1123,8 +1119,6 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #about .container .about-row .about-col-right .about-right-item .about-text {
     line-height: 27px;
     width: 330px;
-  }
-  #about .container .about-row .about-col-right .about-right-item .about-text span {
     font-size: 1rem;
   }
   #about .container .about-row .about-col-right .about-right-item p {
@@ -1216,10 +1210,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #experience .container .row .experience-col .year {
     font-size: 20px;
   }
-  #experience .container .row .experience-col .universty-name span {
+  #experience .container .row .experience-col .universty-name {
     font-size: 17px;
   }
-  #experience .container .row .experience-col .experience-txt span {
+  #experience .container .row .experience-col .experience-txt {
     font-size: 18px;
   }
   #services {
