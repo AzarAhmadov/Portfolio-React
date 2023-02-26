@@ -24,7 +24,7 @@ function App() {
           <div className='animate'>
             <BounceLoader
               loading={loading}
-              size={100}
+              size={150}
               color={'#6c55e0'}
             />
           </div>
@@ -32,11 +32,11 @@ function App() {
           <GlobalContextProvider>
             <Header />
             <Home />
-            <Footer />
             <MobilMenu />
-            <UpBtn />
+            <Footer />
           </GlobalContextProvider>
       }
+      <UpBtn />
     </>
   );
 }
