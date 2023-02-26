@@ -1,13 +1,16 @@
 import { Nav } from '../data/Data'
-import { useContext, useState } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { globalContext } from '../context/Context';
+import Aos from 'aos';
 
 const MobilMenu = () => {
     const { mode, setMode } = useContext(globalContext)
     const [active, setActive] = useState(false)
-
+    useEffect(() => {
+        Aos.init({ duration: 4000 })
+    }, [])
     return (
-        <div className='mobil-menu'>
+        <div ata-aos="fade-up" className='mobil-menu'>
             <div className={active ? 'mobil-list active' : 'mobil-list'}>
                 <ul>
                     {
