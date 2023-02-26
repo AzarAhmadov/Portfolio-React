@@ -664,6 +664,12 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   padding: 10px 20px;
   transition: 300ms all;
   margin-right: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#portfolio .potfolio-row .portfolio-grid .portfolio-item .links a i {
+  margin-left: 7px;
 }
 #portfolio .potfolio-row .portfolio-grid .portfolio-item .links a:hover {
   background: #6c55e0;
@@ -1062,7 +1068,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     width: max-content;
   }
   #banner {
-    padding-top: 40px;
+    padding-top: 50px;
     margin-top: 0;
     padding-bottom: 3px;
   }
@@ -1087,14 +1093,14 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .sosial-icons {
     position: absolute;
-    top: 88px;
+    top: 100px;
     padding: 0;
   }
   #banner .container .banner-row .banner-left-col .banner-left-item .sosial-icons i {
     font-size: 32px;
   }
   #banner .container .banner-row .banner-right-col {
-    padding-left: 30px;
+    padding-left: 10px;
   }
   #banner .container .banner-row .banner-right-col .banner-right-item {
     width: 230px;

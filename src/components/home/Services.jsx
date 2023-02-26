@@ -24,7 +24,7 @@ const Services = () => {
                     <div className="col-lg-4">
                         <div className="card-item">
                             <i className='bx bxs-devices'></i>
-                            <h5> full Responsive  </h5>
+                            <h5> Responsive Friendly  </h5>
                         </div>
                     </div>
                     <div className="col-lg-4">

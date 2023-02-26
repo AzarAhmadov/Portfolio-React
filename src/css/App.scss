@@ -883,7 +883,7 @@ header {
           display: flex;
 
           a {
-            border: 1px solid #6c55e0;
+            border: 1px solid $color-1;
             color: $color-1;
             font-size: 17px;
             border-radius: 10px;
@@ -891,6 +891,14 @@ header {
             padding: 10px 20px;
             transition: 300ms all;
             margin-right: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i {
+
+              margin-left: 7px;
+            }
 
             &:hover {
               background: $color-1;
@@ -1467,7 +1475,7 @@ header {
   }
 
   #banner {
-    padding-top: 40px;
+    padding-top: 50px;
     margin-top: 0;
     padding-bottom: 3px;
 
@@ -1500,7 +1508,7 @@ header {
 
             .sosial-icons {
               position: absolute;
-              top: 88px;
+              top: 100px;
               padding: 0;
 
 
@@ -1512,7 +1520,7 @@ header {
         }
 
         .banner-right-col {
-          padding-left: 30px;
+          padding-left: 10px;
 
           .banner-right-item {
             width: 230px;

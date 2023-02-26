@@ -50,7 +50,7 @@ const Skilss = () => {
                                     <i ref={iref} className="fa-solid fa-chevron-up"></i>
                                 </div>
                             </div>
-                            <div hidden={index != 0} className="progress-area">
+                            <div style={{ paddingLeft: '59px' }}  hidden={index != 0} className="progress-area">
                                 <div className="progress-items">
                                     <span className='progress-top'> Html 5 <span> 100% </span> </span>
                                     <div style={{ width: '100%' }} className="progress-bar">
@@ -109,7 +109,7 @@ const Skilss = () => {
                                     <i ref={iref2} className="fa-solid fa-chevron-down"></i>
                                 </div>
                             </div>
-                            <div hidden={index != 1} className="progress-area">
+                            <div style={{ paddingLeft: '48px' }}  hidden={index != 1} className="progress-area">
                                 <div className="progress-items">
                                     <span className='progress-top'> Adope XD <span> 70% </span> </span>
                                     <div style={{ width: '100%' }} className="progress-bar">
@@ -147,7 +147,7 @@ const Skilss = () => {
                                     <i ref={iref3} className="fa-solid fa-chevron-down"></i>
                                 </div>
                             </div>
-                            <div hidden={index != 2} className="progress-area">
+                            <div style={{ paddingLeft: '51px' }}  hidden={index != 2} className="progress-area">
                                 <div className="progress-items">
                                     <span className='progress-top'> Github(Gitbash) <span> 100% </span> </span>
                                     <div style={{ width: '100%' }} className="progress-bar">
