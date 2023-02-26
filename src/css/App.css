@@ -1115,8 +1115,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     width: 222px;
   }
   .global-button {
-    padding: 10px 28px;
-    font-size: 21px !important;
+    font-size: 20px !important;
   }
   #about {
     margin-bottom: 2px;
@@ -1318,9 +1317,6 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   .footer .container .footer-item .simple-footer {
     font-size: 19px;
-  }
-  .global-button {
-    font-size: 20px;
   }
 }
 @media only screen and (max-width: 364px) {
