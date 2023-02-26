@@ -1119,7 +1119,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     margin-top: 0;
   }
   #about .container .about-row .about-col-right {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   #about .container .about-row .about-col-right .about-right-item {
     text-align: center;
@@ -1129,16 +1129,17 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     justify-content: center;
   }
   #about .container .about-row .about-col-right .about-right-item .about-text {
+    width: 330px;
     line-height: 27px;
     font-size: 16px;
-    width: 320px;
+    text-align: center;
   }
   #about .container .about-row .about-col-right .about-right-item p {
     margin: 0 auto;
   }
   #about .container .about-row .about-col-right .about-right-item ul {
     padding-top: 20px;
-    width: 320px;
+    width: 85%;
     -moz-column-gap: 0px;
          column-gap: 0px;
     justify-content: space-between;
@@ -1166,7 +1167,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     border-radius: 10px;
   }
   #about .container .about-row .about-col-left .about-left-item img {
-    width: 315px;
+    width: 295px;
     height: 100%;
     border-radius: 10px;
   }

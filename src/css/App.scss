@@ -1544,7 +1544,7 @@ header {
         margin-top: 0;
 
         .about-col-right {
-          margin-top: 15px;
+          margin-top: 20px;
 
 
           .about-right-item {
@@ -1555,9 +1555,10 @@ header {
             justify-content: center;
 
             .about-text {
+              width: 330px;
               line-height: 27px;
               font-size: 16px;
-              width: 320px;
+              text-align: center;
             }
 
             p {
@@ -1566,7 +1567,7 @@ header {
 
             ul {
               padding-top: 20px;
-              width: 320px;
+              width: 85%;
               column-gap: 0px;
               justify-content: space-between;
 
@@ -1604,7 +1605,7 @@ header {
             border-radius: 10px;
 
             img {
-              width: 315px;
+              width: 295px;
               height: 100%;
               border-radius: 10px;
             }
