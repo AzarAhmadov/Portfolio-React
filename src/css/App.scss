@@ -712,6 +712,7 @@ header {
           color: $color-1 !important;
           font-weight: 500;
           letter-spacing: 1px;
+          display: inline-block;
         }
 
         &:last-child {
@@ -1457,6 +1458,7 @@ header {
 }
 
 @media only screen and (max-width:578px) {
+
   .successfully {
     top: 20px !important;
     font-size: 21px;
@@ -1473,21 +1475,22 @@ header {
       .banner-row {
         .banner-left-col {
           margin-top: 20px;
-          padding-left: 0px;
 
           .banner-left-item {
+            padding: 0 20px;
+
             .right-text {
               .title {
-                font-size: 30px;
+                font-size: 28px;
               }
 
               .work {
-                font-size: 23px;
+                font-size: 22px;
               }
 
               .work-text {
-                font-size: 0.98rem;
-                width: 330px;
+                white-space: normal;
+                font-size: 1rem;
 
                 br {
                   display: none;
@@ -1535,37 +1538,40 @@ header {
     padding-top: 40px;
 
     .container {
+      padding: 0 20px;
+
       .about-row {
         margin-top: 0;
-        padding: 0 20px;
 
         .about-col-right {
           margin-top: 15px;
 
+
           .about-right-item {
             text-align: center;
-            padding: 0 !important;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             .about-text {
               line-height: 27px;
-              width: 330px;
-              font-size: 1rem;
+              font-size: 16px;
+              width: 320px;
             }
 
             p {
               margin: 0 auto;
-              text-align: start !important;
             }
 
             ul {
-              padding-right: 35px;
-              width: 330px;
-              justify-content: space-between;
-              column-gap: 0px;
               padding-top: 20px;
+              width: 320px;
+              column-gap: 0px;
+              justify-content: space-between;
 
               li {
-                width: max-content;
+                width: auto;
 
                 span {
                   .num {
@@ -1577,7 +1583,7 @@ header {
                     text-align: center;
                     margin: 0 auto;
                     text-align: center;
-                    font-size: 28px;
+                    font-size: 27px;
 
                     &::after {
                       padding-left: 0px;
@@ -1595,12 +1601,17 @@ header {
 
         .about-col-left {
           .about-left-item {
+            border-radius: 10px;
+
             img {
-              height: 240px;
+              width: 315px;
+              height: 100%;
+              border-radius: 10px;
             }
 
             &::after {
-              width: 328px;
+              width: 100%;
+              height: 100%;
             }
           }
         }
@@ -1612,14 +1623,18 @@ header {
     padding-top: 50px;
 
     .container {
+      padding: 0 20px;
+
       .row {
         .skills-col {
           margin-bottom: 40px;
 
           .skills-item {
+            width: 100%;
+
             .skills-top {
               margin: 0 auto;
-              width: 330px;
+              width: 100%;
             }
 
             .skills-top {
@@ -1667,30 +1682,36 @@ header {
             font-size: 25px;
 
             i {
-              margin-right: 12px;
+              margin-right: 7px;
             }
           }
         }
 
         .experience-col {
           margin-top: 20px;
-          padding: 0 30px;
 
-          .name {
-            font-size: 18px;
-          }
+          .experience-item {
+            padding-left: 20px;
+            padding-right: 20px;
 
-          .year {
-            width: 120px;
-            font-size: 20px;
-          }
+            .year {
+              width: 120px;
+              text-align: center;
+              font-size: 20px;
+            }
 
-          .universty-name {
-            font-size: 17px;
-          }
+            .name {
+              font-size: 18px;
+            }
 
-          .experience-txt {
-            font-size: 18px;
+            .experience-txt {
+              font-size: 18px;
+
+              .universty-name {
+                font-size: 17px;
+              }
+            }
+
           }
         }
       }
@@ -1760,8 +1781,8 @@ header {
 
       .portfolio-grid {
         padding-top: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .portfolio-item {
           padding: 15px;
@@ -1806,4 +1827,19 @@ header {
 
 }
 
-@media only screen and (max-width:320px) {}
+@media only screen and (max-width:364px) {
+  #portfolio {
+    .potfolio-row {
+      .portfolio-top-btns {
+        .btns {
+          button {
+            font-size: 17px;
+            padding: 10px 10px;
+          }
+
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

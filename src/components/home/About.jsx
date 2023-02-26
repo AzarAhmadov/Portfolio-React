@@ -29,33 +29,11 @@ const About = ({ className, ...rest }) => {
                     <div className="col-lg-6 about-col-right">
                         <div data-aos="fade-left" className="about-right-item">
                             <p className='about-text'>
-                                I am living in Baku. I like Information technologies and search Informasion technologies. I am open to new things and I like to work on myself. I am very hardworking.
+                                <span>
+                                    I am living in Baku. I like Information technologies and search Informasion technologies. I am open to new things and I like to work on myself. I am very hardworking.
+                                </span>
                             </p>
                             <ul>
-                                <li>
-                                    <span className='d-flex flex-column' data-number="2">
-                                        <CountUp {...rest} start={viewPortEntered ? null : 0} end={2}>
-                                            {({ countUpRef }) => {
-                                                return (
-                                                    <ReactVisibilitySensor
-                                                        active={!viewPortEntered}
-                                                        onChange={(isVisible) => {
-                                                            if (isVisible) {
-                                                                setViewPortEntered(true);
-                                                            }
-                                                        }}
-                                                        delayedCall
-                                                    >
-                                                        <small className="number num" ref={countUpRef} />
-                                                    </ReactVisibilitySensor>
-                                                );
-                                            }}
-                                        </CountUp>
-                                        <strong>
-                                            Experience
-                                        </strong>
-                                    </span>
-                                </li>
                                 <li>
                                     <span className='d-flex flex-column' data-number="55">
                                         <CountUp {...rest} start={viewPortEntered ? null : 0} end={55}>
@@ -77,6 +55,30 @@ const About = ({ className, ...rest }) => {
                                         </CountUp>
                                         <strong>
                                             Project
+                                        </strong>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span className='d-flex flex-column' data-number="2">
+                                        <CountUp {...rest} start={viewPortEntered ? null : 0} end={2}>
+                                            {({ countUpRef }) => {
+                                                return (
+                                                    <ReactVisibilitySensor
+                                                        active={!viewPortEntered}
+                                                        onChange={(isVisible) => {
+                                                            if (isVisible) {
+                                                                setViewPortEntered(true);
+                                                            }
+                                                        }}
+                                                        delayedCall
+                                                    >
+                                                        <small className="number num" ref={countUpRef} />
+                                                    </ReactVisibilitySensor>
+                                                );
+                                            }}
+                                        </CountUp>
+                                        <strong>
+                                            Experience
                                         </strong>
                                     </span>
                                 </li>
