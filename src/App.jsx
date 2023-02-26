@@ -34,9 +34,9 @@ function App() {
             <Home />
             <Footer />
             <MobilMenu />
+            <UpBtn />
           </GlobalContextProvider>
       }
-      <UpBtn />
     </>
   );
 }
