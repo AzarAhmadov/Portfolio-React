@@ -3,9 +3,8 @@ import BounceLoader from "react-spinners/BounceLoader";
 import Footer from './components/home/Footer';
 import Header from './components/home/Header';
 import Home from './components/home/Home'
-import MobilMenu from './components/home/MobilMenu';
-import UpBtn from './components/home/UpBtn';
 import GlobalContextProvider from './components/context/Context';
+import UpBtn from './components/home/UpBtn'
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
           <GlobalContextProvider>
             <Header />
             <Home />
-            <MobilMenu />
             <Footer />
           </GlobalContextProvider>
       }

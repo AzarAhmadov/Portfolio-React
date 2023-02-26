@@ -830,7 +830,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   width: 100%;
   position: fixed;
   bottom: 0;
-  z-index: 10;
+  z-index: 1000;
   left: 0;
   background: #fff;
   padding: 15px 20px;
