@@ -74,10 +74,6 @@ body {
   transition: 400ms all;
   background: #000;
 
-  .animate {
-    background: #000;
-  }
-
   header {
     background: $color-2;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
@@ -193,28 +189,37 @@ body {
     }
   }
 
-  #experience {
-    .container {
-      .row {
-        .experience-top {
-          button {
-            color: $color-3;
 
-            &.active {
-              color: #647dee;
-            }
+  #experience {
+    .experience-row {
+      .experience-top {
+        button {
+          color: $color-3;
+
+          &.active {
+            color: $color-1;
           }
         }
+      }
 
-        .exprerience-col {
-          .exprerience-item {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.173);
+      .experience-col {
+        .experience-item {
+          border-bottom: 1px solid #ffffff5b;
 
-            .year,
-            .name,
-            .universty-name {
-              color: $color-3;
-            }
+          .experience-txt {
+            color: $color-3;
+          }
+
+          .name {
+            color: $color-3;
+          }
+
+          .universty-name {
+            color: $color-3;
+          }
+
+          .year {
+            color: $color-3;
           }
         }
       }
@@ -643,6 +648,7 @@ header {
 
       .progress-items {
         padding-left: 54px;
+
         .progress-top {
           display: flex;
           justify-content: space-between;
@@ -738,15 +744,12 @@ header {
 
         .universty-name {
           color: $color-4;
-
-          span {
-            font-size: 22px;
-          }
+          font-size: 21px;
         }
 
         .year {
           font-weight: 500;
-          color: #000;
+          color: $color-2;
           font-size: 22px;
         }
       }
@@ -1715,11 +1718,11 @@ header {
             }
 
             .experience-txt {
-              font-size: 18px;
+              font-size: 17px;
+            }
 
-              .universty-name {
-                font-size: 17px;
-              }
+            .universty-name {
+              font-size: 17px;
             }
 
           }

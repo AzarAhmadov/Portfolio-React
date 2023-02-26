@@ -69,9 +69,6 @@ body {
   transition: 400ms all;
   background: #000;
 }
-.dark .animate {
-  background: #000;
-}
 .dark header {
   background: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
@@ -123,18 +120,25 @@ body {
 .dark #skills .container .skills-col {
   color: #fff;
 }
-.dark #experience .container .row .experience-top button {
+.dark #experience .experience-row .experience-top button {
   color: #fff;
 }
-.dark #experience .container .row .experience-top button.active {
-  color: #647dee;
+.dark #experience .experience-row .experience-top button.active {
+  color: #6c55e0;
 }
-.dark #experience .container .row .exprerience-col .exprerience-item {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.173);
+.dark #experience .experience-row .experience-col .experience-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3568627451);
 }
-.dark #experience .container .row .exprerience-col .exprerience-item .year,
-.dark #experience .container .row .exprerience-col .exprerience-item .name,
-.dark #experience .container .row .exprerience-col .exprerience-item .universty-name {
+.dark #experience .experience-row .experience-col .experience-item .experience-txt {
+  color: #fff;
+}
+.dark #experience .experience-row .experience-col .experience-item .name {
+  color: #fff;
+}
+.dark #experience .experience-row .experience-col .experience-item .universty-name {
+  color: #fff;
+}
+.dark #experience .experience-row .experience-col .experience-item .year {
   color: #fff;
 }
 .dark #services {
@@ -536,9 +540,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 }
 #experience .experience-row .experience-col .experience-item .universty-name {
   color: #505050;
-}
-#experience .experience-row .experience-col .experience-item .universty-name span {
-  font-size: 22px;
+  font-size: 21px;
 }
 #experience .experience-row .experience-col .experience-item .year {
   font-weight: 500;
@@ -1247,9 +1249,9 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     font-size: 18px;
   }
   #experience .container .row .experience-col .experience-item .experience-txt {
-    font-size: 18px;
+    font-size: 17px;
   }
-  #experience .container .row .experience-col .experience-item .experience-txt .universty-name {
+  #experience .container .row .experience-col .experience-item .universty-name {
     font-size: 17px;
   }
   #services {

@@ -8,6 +8,7 @@ import UpBtn from './components/home/UpBtn'
 import { useState, useEffect } from 'react';
 
 function App() {
+  
   const [loading, setLoading] = useState(false)
   useEffect(() => {
     setLoading(true)
