@@ -449,11 +449,15 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
 #skills .row .skills-col .skills-top .skills i {
   color: #6c55e0;
   font-size: 30px;
-  margin-right: 20px;
+  margin-right: 15px;
+  width: 38px;
 }
 #skills .row .skills-col .skills-top i {
   color: #6c55e0;
   font-size: 25px;
+}
+#skills .row .skills-col .progress-items {
+  padding-left: 54px;
 }
 #skills .row .skills-col .progress-items .progress-top {
   display: flex;
@@ -1202,7 +1206,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   #skills .container .row .skills-col .skills-item .progress-items .progress-top {
     padding: 13px 0;
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
   #skills .container .row .skills-col .skills-item .progress-items .progress-top span {
     font-size: 17px !important;
