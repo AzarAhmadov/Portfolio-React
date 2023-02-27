@@ -636,6 +636,12 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   padding: 15px;
   border-radius: 10px;
   height: 400px;
+  border: 1px solid #fff;
+  transition: 500ms all;
+}
+#portfolio .potfolio-row .portfolio-grid .portfolio-item:hover {
+  background: transparent;
+  border: 1px solid #6c55e0;
 }
 #portfolio .potfolio-row .portfolio-grid .portfolio-item .portfolio-img {
   width: 400px;
@@ -662,9 +668,10 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   display: flex;
 }
 #portfolio .potfolio-row .portfolio-grid .portfolio-item .links a {
+  font-weight: 400;
   border: 1px solid #6c55e0;
   color: #6c55e0;
-  font-size: 16px;
+  font-size: 17px;
   border-radius: 10px;
   text-decoration: none;
   padding: 10px 20px;
