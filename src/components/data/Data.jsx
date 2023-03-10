@@ -187,6 +187,14 @@ export const portfolio = [
         category: "nextJs"
     },
     {
+        img: "../images/port33.png",
+        name: "Youtube Mp3 Downloader",
+        github: "https://github.com/AzarAhmadov/Nextjs-YoutubeMp3Downloader",
+        demo: "https://nextjs-youtube-mp3-downloader.vercel.app/",
+        demoTxt: 'Previrew',
+        category: "nextJs"
+    },
+    {
         img: "../images/port13.png",
         name: "Creezy App",
         github: "https://github.com/AzarAhmadov/Creezy-WebSite",
