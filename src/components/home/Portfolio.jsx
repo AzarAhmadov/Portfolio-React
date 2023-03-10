@@ -31,11 +31,14 @@ const Portfolio = () => {
                     <div onClick={() => setItem(portfolio)} className="btns">
                         <button onClick={() => setActive(0)} className={active === 0 ? 'active' : null}>All</button>
                     </div>
-                    <div onClick={() => filterItem('html')} className="btns">
-                        <button onClick={() => setActive(1)} className={active === 1 ? 'active' : null}>Html & Bootstrap</button>
-                    </div>
                     <div onClick={() => filterItem('react')} className="btns">
                         <button onClick={() => setActive(2)} className={active === 2 ? 'active' : null}>React JS</button>
+                    </div>
+                    <div onClick={() => filterItem('nextJs')} className="btns">
+                        <button onClick={() => setActive(3)} className={active === 3 ? 'active' : null}>Next JS</button>
+                    </div>
+                    <div onClick={() => filterItem('html')} className="btns">
+                        <button onClick={() => setActive(1)} className={active === 1 ? 'active' : null}>Html & Bootstrap</button>
                     </div>
                 </div>
                 <div className='portfolio-grid'>

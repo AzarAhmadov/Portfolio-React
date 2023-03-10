@@ -1,13 +1,16 @@
 import { Nav } from '../data/Data'
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { globalContext } from '../context/Context';
+import { useRef } from 'react';
 
 const MobilMenu = () => {
     const { mode, setMode } = useContext(globalContext)
     const [active, setActive] = useState(false)
 
+    const mobil = useRef()
+
     return (
-        <div className='mobil-menu'>
+        <div ref={mobil} className='mobil-menu'>
             <div className={active ? 'mobil-list active' : 'mobil-list'}>
                 <ul>
                     {

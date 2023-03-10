@@ -25,19 +25,6 @@ h5 {
   margin: 0;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #6c55e0;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(7, 7, 196, 0.678);
-}
-
 .container {
   padding: 0 60px;
 }
@@ -63,6 +50,19 @@ body {
   -webkit-text-size-adjust: auto;
      -moz-text-size-adjust: auto;
           text-size-adjust: auto;
+}
+html ::-webkit-scrollbar,
+body ::-webkit-scrollbar {
+  width: 8px;
+}
+html ::-webkit-scrollbar-thumb,
+body ::-webkit-scrollbar-thumb {
+  background: #6c55e0;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar-thumb:hover,
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(7, 7, 196, 0.678);
 }
 
 .dark {
@@ -461,7 +461,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   font-size: 25px;
 }
 #skills .row .skills-col .progress-items {
-  padding-left: 54px;
+  padding-left: 55px;
 }
 #skills .row .skills-col .progress-items .progress-top {
   display: flex;
@@ -662,7 +662,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   font-weight: 500;
   padding: 15px 0;
   display: grid;
-  font-size: 25px;
+  font-size: 23px;
 }
 #portfolio .potfolio-row .portfolio-grid .portfolio-item .links {
   display: flex;
@@ -693,7 +693,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   justify-content: center;
 }
 #portfolio .potfolio-row .portfolio-top-btns .btns {
-  margin-right: 25px;
+  margin-right: 15px;
 }
 #portfolio .potfolio-row .portfolio-top-btns .btns:last-child {
   margin-right: 0;
@@ -853,8 +853,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   left: 0;
   background: #fff;
   padding: 15px 20px;
-  display: none;
-  transition: 500ms all;
+  display: none !important;
 }
 .mobil-menu .mobil-list {
   position: absolute;
@@ -969,11 +968,11 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
 }
 @media only screen and (max-width: 992px) {
+  .mobil-menu {
+    display: block !important;
+  }
   header {
     display: none;
-  }
-  .mobil-menu {
-    display: block;
   }
   #banner {
     margin-top: 60px;
@@ -1256,7 +1255,7 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
     font-size: 18px;
   }
   #experience .container .row .experience-col .experience-item .experience-txt {
-    font-size: 17px;
+    font-size: 18px;
   }
   #experience .container .row .experience-col .experience-item .universty-name {
     font-size: 17px;
@@ -1290,15 +1289,34 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   #portfolio {
     padding-top: 40px;
   }
+  #portfolio ::-webkit-scrollbar-thumb {
+    background: none;
+  }
+  #portfolio ::-webkit-scrollbar {
+    height: 0px;
+  }
+  #portfolio .titles {
+    padding-bottom: 30px;
+  }
+  #portfolio .potfolio-row .portfolio-top-btns {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    overflow-x: auto;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
   #portfolio .potfolio-row .portfolio-top-btns .btns {
-    margin-right: 10px;
+    white-space: nowrap;
+    width: 100%;
+    margin-right: 12px;
   }
   #portfolio .potfolio-row .portfolio-top-btns .btns button {
-    font-size: 18px;
-    padding: 10px 14px;
+    font-size: 17px;
   }
   #portfolio .potfolio-row .portfolio-grid {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1326,14 +1344,5 @@ header .h-row .h-col-right #navbar #nav-list .dark-mode i {
   }
   .footer .container .footer-item .simple-footer {
     font-size: 19px;
-  }
-}
-@media only screen and (max-width: 364px) {
-  #portfolio .potfolio-row .portfolio-top-btns .btns {
-    margin-right: 10px;
-  }
-  #portfolio .potfolio-row .portfolio-top-btns .btns button {
-    font-size: 17px;
-    padding: 10px 10px;
   }
 }/*# sourceMappingURL=App.css.map */

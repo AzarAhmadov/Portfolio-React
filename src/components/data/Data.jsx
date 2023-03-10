@@ -70,6 +70,7 @@ export const portfolio = [
         name: "seesawprotocol.io",
         github: "https://github.com/AzarAhmadov/Seesaw-WebSite",
         demo: "https://seesawprotocol.io/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -77,6 +78,7 @@ export const portfolio = [
         name: "DoorDrop",
         github: "https://github.com/AzarAhmadov/DoorDroop",
         demo: "https://azarahmadov.github.io/DoorDroop/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -84,6 +86,7 @@ export const portfolio = [
         name: "NTF",
         github: "https://github.com/AzarAhmadov/NFT-WebSite",
         demo: "https://azarahmadov.github.io/NFT-WebSite/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -91,6 +94,7 @@ export const portfolio = [
         name: "AuRum",
         github: "https://github.com/AzarAhmadov/AuRum",
         demo: "https://au-rum.vercel.app/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -98,6 +102,7 @@ export const portfolio = [
         name: "Texh",
         github: "https://github.com/AzarAhmadov/Text-WebSite",
         demo: "https://azarahmadov.github.io/Text-WebSite/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -105,6 +110,7 @@ export const portfolio = [
         name: "Onevera",
         github: "https://github.com/AzarAhmadov/Onevera-project",
         demo: "https://azarahmadov.github.io/Onevera-project/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -112,6 +118,7 @@ export const portfolio = [
         name: "medresetuzehra",
         github: "https://github.com/AzarAhmadov/Medrese-WebSite",
         demo: "https://www.medresetuzzehra.com/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -119,6 +126,7 @@ export const portfolio = [
         name: "Tonnyblack",
         github: "https://github.com/AzarAhmadov/TonnyBlack-WebSite",
         demo: "https://www.tonnyblack.com.tr/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -126,6 +134,7 @@ export const portfolio = [
         name: "Green Card",
         github: "https://github.com/AzarAhmadov/GreenCard",
         demo: "https://azarahmadov.github.io/GreenCard/",
+        demoTxt: 'Previrew',
         category: "html"
     },
 
@@ -134,6 +143,7 @@ export const portfolio = [
         name: "Makonu",
         github: "https://github.com/AzarAhmadov/MakonuNitroTema-WebSite",
         demo: "https://makonu-nitro-tema-web-site.vercel.app/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -141,6 +151,7 @@ export const portfolio = [
         name: "NTKurumsal",
         github: "https://github.com/AzarAhmadov/nitroTema-project",
         demo: "https://azarahmadov.github.io/nitroTema-project/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -148,6 +159,7 @@ export const portfolio = [
         name: "Onevera",
         github: "https://github.com/AzarAhmadov/Onevera-project",
         demo: "https://azarahmadov.github.io/Onevera-project/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -155,6 +167,7 @@ export const portfolio = [
         name: "News App",
         github: "https://github.com/AzarAhmadov/m5Savunma-WebSite",
         demo: "https://azarahmadov.github.io/m5Savunma-WebSite/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -162,13 +175,23 @@ export const portfolio = [
         name: "Jiko",
         github: "https://github.com/AzarAhmadov/Jiko-project",
         demo: "https://azarahmadov.github.io/Jiko-project/",
+        demoTxt: 'Previrew',
         category: "html"
+    },
+    {
+        img: "../images/port32.png",
+        name: "Random Quote App",
+        github: "https://github.com/AzarAhmadov/Nextjs-Random-Quote",
+        demo: "https://nextjs-random-quote.vercel.app/",
+        demoTxt: 'Previrew',
+        category: "nextJs"
     },
     {
         img: "../images/port13.png",
         name: "Creezy App",
         github: "https://github.com/AzarAhmadov/Creezy-WebSite",
         demo: "https://azarahmadov.github.io/Creezy-WebSite/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -176,6 +199,7 @@ export const portfolio = [
         name: "Posta Ua",
         github: "https://github.com/AzarAhmadov/kuryeArac-project",
         demo: "https://azarahmadov.github.io/kuryeArac-project/",
+        demoTxt: 'Previrew',
         category: "html"
     },
     {
@@ -183,6 +207,7 @@ export const portfolio = [
         name: "Viona Mebel",
         github: "https://github.com/AzarAhmadov/VionaMebel",
         demo: "https://viona-mebel.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -190,6 +215,7 @@ export const portfolio = [
         name: "Secret Manta Christmats",
         github: "https://github.com/AzarAhmadov/React-Christmas_Web",
         demo: "https://react-christmas-web-ltla.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -197,6 +223,7 @@ export const portfolio = [
         name: "Shopping Cart",
         github: "https://github.com/AzarAhmadov/React-ShoppingCart",
         demo: "https://react-shopping-cart-ebon.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -204,6 +231,14 @@ export const portfolio = [
         name: "Tasty Food",
         github: "https://github.com/AzarAhmadov/React-TastyFoodWebSite",
         demo: "https://react-tasy-food-web-site.vercel.app/",
+        demoTxt: 'Previrew',
+        category: "react"
+    },
+    {
+        img: "../images/port31.png",
+        name: "News App 'Api' Project",
+        github: "https://github.com/AzarAhmadov/React-NewsApp",
+        demo: "https://react-shopping-cart-ebon.vercel.app/",
         category: "react"
     },
     {
@@ -211,6 +246,7 @@ export const portfolio = [
         name: "Movie App 'Api' Project",
         github: "https://github.com/AzarAhmadov/React-MovieApp",
         demo: "https://react-movie-app-three-omega.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -218,6 +254,7 @@ export const portfolio = [
         name: "Blog App Project",
         github: "https://github.com/AzarAhmadov/React-BlogApp",
         demo: "https://react-blog-app-teal.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -225,6 +262,7 @@ export const portfolio = [
         name: "Book App 'Api' Project",
         github: "https://github.com/AzarAhmadov/React-BookApp",
         demo: "https://react-book-app-wl3l.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -232,6 +270,7 @@ export const portfolio = [
         name: "Recipe App 'Api' Project",
         github: "https://github.com/AzarAhmadov/React-FoodRecipeApp",
         demo: "https://react-food-recipe-app.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -239,6 +278,7 @@ export const portfolio = [
         name: "Radio App 'Api' Project",
         github: "https://github.com/AzarAhmadov/React-Radio_App",
         demo: "https://react-radio-app-zeta.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
     {
@@ -246,6 +286,7 @@ export const portfolio = [
         name: "Random Cat App 'Api' Project",
         github: "https://github.com/AzarAhmadov/React-RandomCats",
         demo: "https://rect-random-cats.vercel.app/",
+        demoTxt: 'Previrew',
         category: "react"
     },
 ]

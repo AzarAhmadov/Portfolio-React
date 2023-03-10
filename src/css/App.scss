@@ -26,19 +26,6 @@ h5 {
   margin: 0;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #6c55e0;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(7, 7, 196, 0.678);
-}
-
 //Color 
 $color-1: #6c55e0;
 $color-2: #000;
@@ -68,6 +55,19 @@ body {
   scroll-behavior: smooth;
   font-size: 100%;
   text-size-adjust: auto;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #6c55e0;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(7, 7, 196, 0.678);
+  }
 }
 
 .dark {
@@ -647,7 +647,7 @@ header {
       }
 
       .progress-items {
-        padding-left: 54px;
+        padding-left: 55px;
 
         .progress-top {
           display: flex;
@@ -888,7 +888,7 @@ header {
           font-weight: 500;
           padding: 15px 0;
           display: grid;
-          font-size: 25px;
+          font-size: 23px;
         }
 
         .links {
@@ -926,7 +926,7 @@ header {
       justify-content: center;
 
       .btns {
-        margin-right: 25px;
+        margin-right: 15px;
 
         &:last-child {
           margin-right: 0;
@@ -1122,8 +1122,7 @@ header {
   left: 0;
   background: $color-3;
   padding: 15px 20px;
-  display: none;
-  transition: 500ms all;
+  display: none !important;
 
   .mobil-list {
     position: absolute;
@@ -1300,12 +1299,11 @@ header {
 }
 
 @media only screen and (max-width:992px) {
+  .mobil-menu{
+    display: block !important;
+  }
   header {
     display: none;
-  }
-
-  .mobil-menu {
-    display: block;
   }
 
   #banner {
@@ -1725,7 +1723,7 @@ header {
             }
 
             .experience-txt {
-              font-size: 17px;
+              font-size: 18px;
             }
 
             .universty-name {
@@ -1787,20 +1785,41 @@ header {
   #portfolio {
     padding-top: 40px;
 
+    ::-webkit-scrollbar-thumb {
+      background: none;
+    }
+
+    ::-webkit-scrollbar {
+      height: 0px;
+    }
+
+    .titles {
+      padding-bottom: 30px;
+    }
+
     .potfolio-row {
       .portfolio-top-btns {
-        .btns {
-          button {
-            font-size: 18px;
-            padding: 10px 14px;
-          }
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        overflow-x: auto;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: flex-start;
 
-          margin-right: 10px;
+        .btns {
+          white-space: nowrap;
+          width: 100%;
+          margin-right: 12px;
+
+          button {
+            font-size: 17px;
+          }
         }
       }
 
       .portfolio-grid {
-        padding-top: 40px;
+        padding-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
 
@@ -1841,21 +1860,4 @@ header {
     }
   }
 
-}
-
-@media only screen and (max-width:364px) {
-  #portfolio {
-    .potfolio-row {
-      .portfolio-top-btns {
-        .btns {
-          button {
-            font-size: 17px;
-            padding: 10px 10px;
-          }
-
-          margin-right: 10px;
-        }
-      }
-    }
-  }
 }
