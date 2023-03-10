@@ -6,9 +6,10 @@ import Home from './components/home/Home'
 import GlobalContextProvider from './components/context/Context';
 import UpBtn from './components/home/UpBtn'
 import { useState, useEffect } from 'react';
+import MobilMenu from './components/home/MobilMenu';
 
 function App() {
-  
+
   const [loading, setLoading] = useState(false)
   useEffect(() => {
     setLoading(true)
@@ -30,6 +31,7 @@ function App() {
           </div>
           :
           <GlobalContextProvider>
+            <MobilMenu />
             <Header />
             <Home />
             <Footer />

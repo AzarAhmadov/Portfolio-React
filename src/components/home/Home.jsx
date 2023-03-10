@@ -5,12 +5,10 @@ import Exprience from '../home/Experience';
 import Portfolio from '../home/Portfolio'
 import Services from '../home/Services';
 import Skilss from '../home/Skills';
-import MobilMenu from './MobilMenu';
 
 const Home = () => {
     return (
         <main>
-            <MobilMenu />
             <Hero />
             <About />
             <Skilss />
