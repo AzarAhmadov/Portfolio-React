@@ -1,13 +1,10 @@
 import React from 'react'
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function PortfolioCards({ elem }) {
     return (
         <div className='portfolio-item'>
             <div className="portfolio-img">
-                <LazyLoadImage src={elem.img}
-                    alt="Image Alt"
-                />
+                <img src={elem.img} />
             </div>
             <span className="portfolio-name">{elem.name}</span>
             <div className="links">
